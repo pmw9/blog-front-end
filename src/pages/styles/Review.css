@@ -1,0 +1,38 @@
+/* src/pages/styles/Review.css */
+.review-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.review-container h1 {
+  font-size: 2rem;
+  color: #b30000;
+  margin-bottom: 1.5rem;
+}
+
+.review-list h2 {
+  color: #d90429;
+}
+
+.review-card {
+  border-bottom: 1px solid #ddd;
+  padding: 1rem 0;
+}
+
+.review-card:last-child {
+  border-bottom: none;
+}
+
+.review-card h3 {
+  font-size: 1.2rem;
+  color: #222;
+}
+
+.review-card p {
+  color: #444;
+  font-size: 1rem;
+}

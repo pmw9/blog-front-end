@@ -1,0 +1,35 @@
+/* src/components/styles/Navbar.css */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 3rem;
+  background-color: #fff;
+  border-bottom: 2px solid #d40000;
+}
+
+.navbar-logo a {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #d40000;
+  text-decoration: none;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.navbar-links a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold; /* ✅ This is the key update */
+  padding-bottom: 5px;
+  transition: border-bottom 0.3s ease;
+}
+
+.navbar-links a.active,
+.navbar-links a:hover {
+  border-bottom: 3px solid #d40000;
+}

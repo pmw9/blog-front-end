@@ -1,0 +1,99 @@
+.reservation-container {
+  max-width: 420px;
+  margin: 2.5rem auto;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.10);
+  padding: 2.5rem 2rem 2rem 2rem;
+  text-align: center;
+}
+.reservation-title {
+  color: #d40000;
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+.reservation-form label {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  color: #222;
+}
+.reservation-form input[type="date"] {
+  width: 100%;
+  padding: 0.7rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  margin-bottom: 1.2rem;
+  font-size: 1rem;
+}
+.timeslot-section {
+  margin-bottom: 1.2rem;
+}
+.timeslot-list {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 0.5rem;
+}
+.timeslot-btn {
+  background: #f7f7f7;
+  border: 1.5px solid #d40000;
+  color: #d40000;
+  border-radius: 6px;
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.18s, color 0.18s, box-shadow 0.18s;
+}
+.timeslot-btn.selected, .timeslot-btn:hover {
+  background: #d40000;
+  color: #fff;
+  box-shadow: 0 2px 8px rgba(212,0,0,0.10);
+}
+.reserve-btn {
+  margin-top: 1.2rem;
+  background: #d40000;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 0.8rem 2.2rem;
+  font-size: 1.1rem;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(212,0,0,0.10);
+  transition: background 0.18s;
+}
+.reserve-btn:disabled {
+  background: #eee;
+  color: #aaa;
+  cursor: not-allowed;
+}
+.reservation-confirm-overlay {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0,0,0,0.25);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2000;
+}
+.reservation-confirm-popup {
+  background: #fff;
+  border-radius: 12px;
+  padding: 2rem 2.5rem;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.18);
+  text-align: center;
+}
+.close-confirm-btn {
+  margin-top: 1.2rem;
+  background: #d40000;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 0.7rem 2rem;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+}

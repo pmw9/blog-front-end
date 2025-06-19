@@ -1,0 +1,34 @@
+/* All styles removed for reset. */
+
+.footer {
+  background: linear-gradient(90deg, #b30000 0%, #d90429 100%);
+  color: #fff;
+  padding: 2rem 1rem;
+  text-align: center;
+  border-top: 4px solid #d40000;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-shadow: 0 -4px 18px rgba(180,0,0,0.10);
+}
+
+.footer h4 {
+  color: #fff;
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.footer p {
+  margin: 0.2rem 0;
+  font-size: 0.95rem;
+}
+
+.footer a {
+  color: #fff;
+  margin: 0 0.5rem;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer a:hover {
+  color: #ffd6d6;
+  text-decoration: underline;
+}
